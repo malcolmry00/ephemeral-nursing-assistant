@@ -45,6 +45,9 @@ python main.py
 - **Learning Agent** (Port 8005) - Pattern recognition
   - Address: `agent1q02v98pwsugqp96dzhqlrl39g2mx02jlfq8p0l6eeca0w5npcsfjqf0m53r`
 
+- **Patient Profile** (Port 8006) - Stores preferences and learning patterns
+  - Address: `agent1q2jw2yajk63f8j53tc5nd6lq200aprud4xwsdwxc26mlwcsptta6gykeatc`
+
 ## Deployment Status
 
 **Local Testing**: ✅ All agents functional and tested locally
@@ -57,6 +60,9 @@ python main.py
 - Verifier: `agent1qf2dxnp70hj7gpmkjapq6f8amqrlg8shnts5zhzvqedv6kw84zspv0685nr`
 - Alert Agent: `agent1q2mvrlgvurq4ertdza0d8j73fulzx3c86pfk5ucqfvtj5uxzgqxmwkg2t2h`
 - Learning Agent: `agent1q02v98pwsugqp96dzhqlrl39g2mx02jlfq8p0l6eeca0w5npcsfjqf0m53r`
+- Patient Profile:
+`agent1q2jw2yajk63f8j53tc5nd6lq200aprud4xwsdwxc26mlwcsptta6gykeatc`
+
 
 ## How It Works
 
