@@ -1,0 +1,33 @@
+WINDOWS SETUP INSTRUCTIONS
+
+Step 1: Open PowerShell or Command Prompt
+
+Step 2: Navigate to project folder
+cd %USERPROFILE%\ephemeral-nursing-assistant
+
+Step 3: Create virtual environment
+python -m venv venv
+
+Step 4: Activate virtual environment
+venv\Scripts\activate
+
+Step 5: Install dependencies
+pip install -r requirements.txt
+
+Step 6: Test the demo
+python test_demo.py
+
+You should see:
+- Scenario 1: Confused patient (score ~0.35)
+- ALERT triggered
+- Scenario 2: Understanding patient (score ~0.85)
+- SUCCESS message
+
+Step 7: Run all agents
+python main.py
+
+Next Steps:
+1. Register agents on Agentverse
+2. Enable Chat Protocol on Coordinator
+3. Add agent addresses to README.md
+4. Record demo video
